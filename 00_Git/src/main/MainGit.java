@@ -9,7 +9,12 @@ public class MainGit {
 		Scanner sc = new Scanner(System.in);
 		int numero1 = sc.nextInt();
 		System.out.println("El numero introducido ha sido " + numero1);
-		System.out.println("Esto lo borraremos");
+		
+		int numero2 = sc.nextInt();
+		System.out.println("El numero introducido ha sido " + numero2);
+		
+		int resultado = Suma.sumar(numero1, numero2);
+		System.out.println("El resultado es: " + resultado);
 	}
 
 }
