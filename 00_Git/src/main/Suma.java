@@ -10,8 +10,13 @@ public class Suma {
 	//1- Nombre metodo
 	//2- Tipo de argumetos de entrada
 	//3- El numero de argumentos de entrada
+	/**
+	 * Suma de un numero indeterminado de parametros
+	 * @param numeros
+	 * @return la suma de los parametros de entrada
+	 */
 	public static int sumar(int... numeros) {
-		int valorAcumulado = 0;
+		var valorAcumulado = 0;
 		for(int numero : numeros) {
 			valorAcumulado += numero;
 		}
