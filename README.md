@@ -5,7 +5,7 @@ Este WS contiene la prueba vista en clase
 
 ## Nueva cabecera
 
-Esto es una nueva cabecera
+Esto es otra prueba OMG!
 
 ## Bibliografía
 
