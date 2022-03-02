@@ -2,6 +2,11 @@ package main;
 
 import java.util.Scanner;
 
+/**
+ * Clase de pruebas de la clase suma
+ * @author vened
+ *
+ */
 public class MainGit {
 
 	public static void main(String... args) {
@@ -28,6 +33,7 @@ public class MainGit {
 		resultado = Suma.sumar(1,2,3,78,99);
 		System.out.println("El resultado es: " + resultado);
 		
+		System.out.println("Fin de programa");
 	}
 
 }
