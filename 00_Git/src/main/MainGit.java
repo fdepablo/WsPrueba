@@ -28,6 +28,8 @@ public class MainGit {
 		resultado = Suma.sumar(1,2,3,78,99);
 		System.out.println("El resultado es: " + resultado);
 		
+		double resultadoDouble = Suma.sumar(56.7, 89.5);
+		System.out.println("El resultado double es: " + resultadoDouble);
 	}
 
 }
