@@ -11,7 +11,7 @@ public class Suma {
 	//2- Tipo de argumetos de entrada
 	//3- El numero de argumentos de entrada
 	public static int sumar(int... numeros) {
-		int valorAcumulado = 0;
+		var valorAcumulado = 0;
 		for(int numero : numeros) {
 			valorAcumulado += numero;
 		}
