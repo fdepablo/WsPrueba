@@ -25,6 +25,9 @@ public class MainGit {
 		resultado = Suma.sumar();
 		System.out.println("El resultado es: " + resultado);
 		
+		resultado = Suma.sumar(1,2,3,78,99);
+		System.out.println("El resultado es: " + resultado);
+		
 	}
 
 }
